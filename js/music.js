@@ -1,6 +1,6 @@
 function getMusic(musicSrc) {
         var musicVar = "";
-        musicVar += "<link rel=\"stylesheet\" href=\"\/css\/music.css\">";
+        musicVar += "<link rel=\"stylesheet\" href='https://cdn.jsdelivr.net/gh/ialoe/music@master/css/music.css'>";
         musicVar += "<div class=\"music_box\" id=\"music_box\">";
         musicVar += "    <audio id=\"audio\">";
         musicVar += "        <source src=" + musicSrc + ">";
