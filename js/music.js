@@ -192,5 +192,5 @@ function getMusic(musicSrc) {
         musicVar += "        <\/div>";
         musicVar += "    <\/div>";
         musicVar += "<\/div>";
-        document.write(musicVar);
+        document.getElementById("live2d").insertAdjacentHTML("afterBegin",musicVar);
     }
